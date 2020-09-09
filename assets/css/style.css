@@ -12,8 +12,8 @@ body {
     color: white;
     text-align: center;
     border-top: 10px solid teal;
-    height: 70px;
-    padding-top: 20px;
+    height: 60px;
+    padding-top: 10px;
 }
 /* About me image */
 .main-img {
@@ -28,6 +28,7 @@ p {
 /* Portfolio columns */
 .col-md-6 {
     position: relative;
+/* Portfolio banner text */
 }
 .banner {
 background-color: teal;
