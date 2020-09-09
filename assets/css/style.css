@@ -1,22 +1,27 @@
+/* Background */
 body {
     background-image: url(../images/double-bubble-outline.png);
 }
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: teal;
-            color: white;
-            text-align: center;
-        }
-    img {
-        float: left;
-    }
-    p {
-        font-family: Arial, Helvetica, sans-serif;
-        size: 16px;
-    }
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+/* About me image */
+img {
+    float: left;
+}
+/* About me paragraphs */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    size: 16px;
+}
+/* Portfolio columns */
 .col {
     margin-left: 90px;
     margin-bottom: 25px;
