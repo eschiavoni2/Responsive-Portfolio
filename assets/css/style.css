@@ -19,6 +19,8 @@ body {
 .main-img {
     float: left;
     margin-right: 2%;
+    height: 200px;
+    width: 200px;
 }
 /* About me paragraphs */
 p {
