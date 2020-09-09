@@ -8,13 +8,17 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: teal;
+    background-color: gray;
     color: white;
     text-align: center;
+    border-top: 10px solid teal;
+    height: 70px;
+    padding-top: 20px;
 }
 /* About me image */
-img {
+.main-img {
     float: left;
+    margin-right: 2%;
 }
 /* About me paragraphs */
 p {
@@ -22,7 +26,23 @@ p {
     size: 16px;
 }
 /* Portfolio columns */
-.col {
-    margin-left: 90px;
-    margin-bottom: 25px;
+.col-md-6 {
+    position: relative;
+}
+.banner {
+background-color: teal;
+height: 75px;
+color: white;
+position: absolute;
+bottom: 20px;
+width: 200px;
+padding-top: 25px;
+}
+#name {
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 10px 18px 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
