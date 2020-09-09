@@ -12,7 +12,7 @@ Personal portfolio
 *I used html and css on visual code
 
 <!-- I used the validator, but did not change all edits since some were by John -->
-
+*I did try to use a validator, didn't change everything because some edits were done by John, and seemed to be the only way to go forward.
 
 *Erika Zibelnik
 
