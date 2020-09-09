@@ -11,5 +11,8 @@ Personal portfolio
 <!-- What was used -->
 *I used html and css on visual code
 
+<!-- I used the validator, but did not change all edits since some were by John -->
+
+
 *Erika Zibelnik
 
