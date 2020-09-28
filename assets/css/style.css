@@ -38,7 +38,7 @@ height: 75px;
 color: white;
 position: absolute;
 bottom: 20px;
-width: 200px;
+width: 300px;
 padding-top: 25px;
 }
 /* Nav bar color and such */
@@ -49,4 +49,8 @@ padding-top: 25px;
     font-weight: bold;
     padding: 10px 10px 18px 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    background-color: ;
 }
