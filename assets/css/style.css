@@ -100,14 +100,7 @@ img {
     margin-right: 100px;
 }
 
-.container1 {
-    justify-content: center;
-    height: 100%
-    background-color: transparent;
-}
-.container2 {
-    padding: 20px;
-}
+
 .nav-link {
     font-family: 'Epilogue', sans-serif;;
 }
@@ -123,15 +116,18 @@ img {
     margin-top: 15px;
     border-radius: 10px;
     border: thin dotted black;
+    margin-left: 83px;
 }
 #portfolio {
     margin-top: 15px;
     border-radius: 10px;
     border: thin dotted black;
+    padding: 20px;
 }
 #contact {
     margin-top: 15px;
     border-radius: 10px;
     border: thin dotted black;
     padding: 20px;
+    margin-left: 83px;
 }
