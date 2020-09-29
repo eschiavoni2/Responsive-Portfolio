@@ -1,9 +1,14 @@
 /* Background */
 body {
-    /* background-image: url(../images/double-bubble-outline.png); */
+    background-image: url(../images/back2.jpg);
+    background-size: 100%;
+    background-position: center;
     border: 8px solid black;
     overflow: hidden;
     display: block;
+}
+html, body {
+    height: 100%;
 }
 /* Footer */
 .footer {
@@ -11,20 +16,21 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: gray;
+    background-color: transparent;
     color: white;
     text-align: center;
-    border-top: 10px solid rgb(11, 36, 105);
+    border-top: 1px dotted rgb(11, 36, 105);
     height: 60px;
     padding-top: 10px;
     font-family: font-family: 'Epilogue', sans-serif;
+    z-index: -1;
 }
 /* About me image */
 .main-img {
     float: left;
     margin-right: 2%;
     height: 200px;
-    width: 250px;
+    width: 225px;
 }
 /* About me paragraphs */
 p {
@@ -37,6 +43,12 @@ h1 {
 /* Portfolio columns */
 .col-md-6 {
     position: relative;
+}
+#about{
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    flex: wrap;
 }
 /* Portfolio banner text */
 .banner {
@@ -73,6 +85,7 @@ h1 {
 
 img {
     margin-right: 100px;
+    border: dotted black thin;
 }
 
 .bannerB {
@@ -89,6 +102,10 @@ img {
 .container1 {
     justify-content: center;
     height: 100%
+    background-color: transparent;
+}
+.container2 {
+    padding: 20px;
 }
 .nav-link {
     font-family: 'Epilogue', sans-serif;;
@@ -96,7 +113,7 @@ img {
 .navbar-brand {
     width: 175px;
     height: 60px;
-    border: 5px solid #000;
+    border: 3px solid #000;
     padding-left: 8px;
     padding-top: 8px;
 }
