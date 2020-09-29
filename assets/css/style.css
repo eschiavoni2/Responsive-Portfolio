@@ -11,21 +11,25 @@ body {
     background-color: gray;
     color: white;
     text-align: center;
-    border-top: 10px solid teal;
+    border-top: 10px solid rgb(11, 36, 105);
     height: 60px;
     padding-top: 10px;
+    font-family: font-family: 'Epilogue', sans-serif;
 }
 /* About me image */
 .main-img {
     float: left;
     margin-right: 2%;
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 250px;
 }
 /* About me paragraphs */
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    size: 20px;
+    font-family: 'Epilogue', sans-serif;;
+    size: 16px;
+}
+h1 {
+    font-family: 'Epilogue', sans-serif;;
 }
 /* Portfolio columns */
 .col-md-6 {
@@ -33,22 +37,20 @@ p {
 }
 /* Portfolio banner text */
 .banner {
-background-color: teal;
-height: 75px;
-color: white;
-position: absolute;
-bottom: 20px;
-width: 300px;
-padding-top: 25px;
+    background-color: teal;
+    height: 75px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    width: 300px;
+    padding-top: 25px;
 }
 /* Nav bar color and such */
 #name {
-    background-color: teal;
-    color: white;
+    color: rgb(11, 36, 105);
     font-size: 24px;
     font-weight: bold;
-    padding: 10px 10px 18px 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 
 .gitHubDiv {
@@ -78,4 +80,11 @@ img {
     width: 300px;
     padding-top: 25px;
     margin-right: 100px;
+}
+
+.container1 {
+    justify-content: center;
+}
+.nav-link {
+    font-family: 'Epilogue', sans-serif;;
 }
