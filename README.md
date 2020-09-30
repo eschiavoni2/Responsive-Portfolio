@@ -24,6 +24,11 @@ Personal portfolio
 
 *Screen grabs
 <img src="Portfolio.PNG" alt="About me screen grab">
+<img src="Portfolio1.PNG" alt="About me screen grab">
+<img src="Portfolio3.PNG" alt="About me screen grab">
+
+
+
 
 
 
