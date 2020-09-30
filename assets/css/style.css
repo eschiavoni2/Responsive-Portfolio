@@ -4,8 +4,6 @@ body {
     background-size: 100%;
     background-position: center;
     border: 8px solid black;
-    overflow: hidden;
-    display: block;
 }
 html, body {
     height: 100%;
