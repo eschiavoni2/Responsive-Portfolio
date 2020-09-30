@@ -52,16 +52,17 @@ h1 {
 }
 /* Portfolio banner text */
 .banner {
-    background-color: black;
+    background-color: rgb(70, 131, 58);
     height: 60px;
     color: white;
     position: absolute;
     bottom: 20px;
     width: 300px;
     padding-top: 20px;
+    margin-right: 99px;
 }
 .bannerb {
-    background-color: black;
+    background-color: rgb(70, 131, 58);
     height: 60px;
     color: white;
     position: absolute;
@@ -73,7 +74,7 @@ h1 {
 /* Nav bar color and such */
 #name {
     color: rgb(11, 36, 105);
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     font-family: 'Rajdhani', sans-serif;
 }
@@ -96,7 +97,7 @@ h1 {
 
 img {
     margin-right: 100px;
-    border: solid black thin;
+    border: dotted sienna 1px;
     border-radius: 10%
 }
 
