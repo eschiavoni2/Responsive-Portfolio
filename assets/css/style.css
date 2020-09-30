@@ -58,7 +58,7 @@ h1 {
     position: absolute;
     bottom: 20px;
     width: 300px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 .bannerb {
     background-color: black;
@@ -67,7 +67,7 @@ h1 {
     position: absolute;
     bottom: 20px;
     width: 300px;
-    padding-top: 25px;
+    padding-top: 20px;
     margin-right: 100px;
 }
 /* Nav bar color and such */
@@ -97,7 +97,7 @@ h1 {
 img {
     margin-right: 100px;
     border: solid black thin;
-    border-radius: 5px;
+    border-radius: 10%
 }
 
 .nav-link {
