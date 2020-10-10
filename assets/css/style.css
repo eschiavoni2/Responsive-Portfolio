@@ -12,14 +12,13 @@ html, body {
 .footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     background-color: transparent;
     text-align: center;
     border-top: 1px dotted rgb(11, 36, 105);
     height: 60px;
     padding-top: 10px;
-    /* z-index: -1; */
 }
 /* About me image */
 .main-img {
@@ -105,7 +104,7 @@ img {
 }
 /* about me box */
 #about {
-    margin-top: 80px;
+    margin-top: 40px;
     border-radius: 10px;
     border: thin dotted black;
     background-color: white;
@@ -123,11 +122,11 @@ img {
     padding: 20px;
     flex: wrap;
     float: left;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 /* contact box */
 #contact {
-    margin-top: 80px;
+    margin-top: 40px;
     border-radius: 10px;
     border: thin dotted black;
     padding: 20px;
