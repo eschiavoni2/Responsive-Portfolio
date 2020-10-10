@@ -15,38 +15,33 @@ html, body {
     bottom: 0;
     width: 100%;
     background-color: transparent;
-    color: white;
     text-align: center;
     border-top: 1px dotted rgb(11, 36, 105);
     height: 60px;
     padding-top: 10px;
-    font-family: font-family: 'Epilogue', sans-serif;
     z-index: -1;
 }
 /* About me image */
 .main-img {
+    margin: 20px;
     float: left;
-    margin-right: 2%;
-    height: 200px;
-    width: 225px;
+    margin-right: 5%;
+    height: 300px;
+    width: 325px;
 }
 /* About me paragraphs */
 p {
     font-family: 'Epilogue', sans-serif;;
     size: 16px;
+    margin-top: 40px;
 }
+/* Title font */
 h1 {
     font-family: 'Epilogue', sans-serif;;
 }
 /* Portfolio columns */
 .col-md-6 {
     position: relative;
-}
-#about{
-    background-color: white;
-    padding: 20px;
-    justify-content: center;
-    flex: wrap;
 }
 /* Portfolio banner text */
 .banner {
@@ -76,49 +71,68 @@ h1 {
     font-weight: bold;
     font-family: 'Rajdhani', sans-serif;
 }
-
+/* github button */
 .gitHubDiv {
     float: left;
 }
-
+/* linkedin button */
 .linkedinDiv {
     float: left;
     margin-right: 15px;
     padding-left: 45%;
     padding-bottom: 10px;
 }
-
+/* class with margin 2 */
 .mt-2 {
     padding-left: 100px;
     
 }
-
+/* images for portfolio */
 img {
     margin-right: 100px;
     border: dotted sienna 1px;
     border-radius: 10%
 }
-
+/* fourth project */
+.p4 {
+    margin-right: 100px;
+    border: dotted sienna 1px;
+    border-radius: 10%
+}
+/* font family for nav links */
 .nav-link {
     font-family: 'Epilogue', sans-serif;;
 }
+/* about me box */
 #about {
-    margin-top: 15px;
+    margin-top: 80px;
     border-radius: 10px;
     border: thin dotted black;
-    margin-left: 83px;
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    flex: wrap;
+    float: left;
 }
+/* portfolio box */
 #portfolio {
-    margin-top: 15px;
     border-radius: 10px;
     border: thin dotted black;
+    background-color: white;
+    justify-content: center;
     padding: 20px;
+    flex: wrap;
+    float: left;
+    margin-top: 80px;
 }
+/* contact box */
 #contact {
-    margin-top: 15px;
+    margin-top: 80px;
     border-radius: 10px;
     border: thin dotted black;
     padding: 20px;
-    margin-left: 83px;
+    justify-content: center;
+    flex: wrap;
+    float: left;
 }
 
