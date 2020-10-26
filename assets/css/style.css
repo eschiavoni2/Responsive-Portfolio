@@ -88,15 +88,15 @@ h1 {
 }
 /* images for portfolio */
 img {
-    margin-right: 100px;
     border: dotted sienna 1px;
-    border-radius: 10%
+    border-radius: 10%;
+    margin-right: 100px;
 }
 /* fourth project */
 .p4 {
-    margin-right: 100px;
     border: dotted sienna 1px;
-    border-radius: 10%
+    border-radius: 10%;
+    margin-right: 100px;
 }
 /* font family for nav links */
 .nav-link {
@@ -134,4 +134,5 @@ img {
     flex: wrap;
     float: left;
 }
+
 
