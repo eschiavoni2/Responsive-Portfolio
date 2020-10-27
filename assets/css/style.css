@@ -29,10 +29,11 @@ html, body {
     width: 325px;
 }
 /* About me paragraphs */
-p {
-    font-family: 'Epilogue', sans-serif;;
-    size: 16px;
+.font, p {
+    font-family: 'Epilogue', sans-serif;
+    size: 25px;
     margin-top: 40px;
+    font-weight: bolder;
 }
 /* Title font */
 h1 {
@@ -69,6 +70,7 @@ h1 {
     font-size: 35px;
     font-weight: bold;
     font-family: 'Comfortaa', cursive;
+    padding-left: 250px;
 }
 /* github button */
 .gitHubDiv {
@@ -100,11 +102,13 @@ img {
 }
 /* font family for nav links */
 .nav-link {
-    font-family: 'Epilogue', sans-serif;;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    padding-right: 50px;
 }
 /* about me box */
 #about {
-    margin-top: 40px;
+    margin-top: 80px;
     border-radius: 10px;
     border: thin solid black;
     background-color: white;
@@ -119,14 +123,14 @@ img {
     border: thin solid black;
     background-color: white;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
     flex: wrap;
     float: left;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 /* contact box */
 #contact {
-    margin-top: 40px;
+    margin-top: 80px;
     border-radius: 10px;
     border: thin solid black;
     padding: 20px;
