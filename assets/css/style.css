@@ -16,7 +16,7 @@ html, body {
     width: 100%;
     background-color: transparent;
     text-align: center;
-    border-top: 1px dotted rgb(11, 36, 105);
+    border-top: 1px solid rgb(11, 36, 105);
     height: 60px;
     padding-top: 10px;
 }
@@ -68,7 +68,7 @@ h1 {
     color: rgb(11, 36, 105);
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 /* github button */
 .gitHubDiv {
@@ -88,13 +88,13 @@ h1 {
 }
 /* images for portfolio */
 img {
-    border: dotted sienna 1px;
+    border: solid sienna 1px;
     border-radius: 10%;
     margin-right: 100px;
 }
 /* fourth project */
 .p4 {
-    border: dotted sienna 1px;
+    border: solid sienna 1px;
     border-radius: 10%;
     margin-right: 100px;
 }
@@ -106,7 +106,7 @@ img {
 #about {
     margin-top: 40px;
     border-radius: 10px;
-    border: thin dotted black;
+    border: thin solid black;
     background-color: white;
     padding: 20px;
     justify-content: center;
@@ -116,7 +116,7 @@ img {
 /* portfolio box */
 #portfolio {
     border-radius: 10px;
-    border: thin dotted black;
+    border: thin solid black;
     background-color: white;
     justify-content: center;
     padding: 20px;
@@ -128,7 +128,7 @@ img {
 #contact {
     margin-top: 40px;
     border-radius: 10px;
-    border: thin dotted black;
+    border: thin solid black;
     padding: 20px;
     justify-content: center;
     flex: wrap;
