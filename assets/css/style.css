@@ -31,13 +31,22 @@ html, body {
 /* About me paragraphs */
 .font, p {
     font-family: 'Epilogue', sans-serif;
-    size: 25px;
     margin-top: 40px;
-    font-weight: bolder;
 }
 /* Title font */
 h1 {
-    font-family: 'Epilogue', sans-serif;;
+    font-family: 'Epilogue', sans-serif;
+}
+/* contact form font */
+label {
+    font-family: 'Epilogue', sans-serif;
+}
+.btn {
+    font-family: 'Epilogue', sans-serif;
+    background-color: transparent;
+    color: black;
+    border-color: rgb(11, 36, 105);
+    padding-top: 7px;
 }
 /* Portfolio columns */
 .col-md-6 {
@@ -48,6 +57,7 @@ h1 {
     background-color: rgb(70, 131, 58);
     height: 60px;
     color: white;
+    font-size: 20px;
     position: absolute;
     bottom: 20px;
     width: 300px;
@@ -58,6 +68,7 @@ h1 {
     background-color: rgb(70, 131, 58);
     height: 60px;
     color: white;
+    font-size: 20px;
     position: absolute;
     bottom: 20px;
     width: 300px;
@@ -93,12 +104,18 @@ img {
     border: solid sienna 1px;
     border-radius: 10%;
     margin-right: 100px;
+    margin-top: 20px;
 }
 /* fourth project */
 .p4 {
     border: solid sienna 1px;
     border-radius: 10%;
     margin-right: 100px;
+}
+#email, #phone {
+    /* justify-content: center;
+    display: flex; */
+    padding-left: 30px;
 }
 /* font family for nav links */
 .nav-link {
@@ -108,7 +125,7 @@ img {
 }
 /* about me box */
 #about {
-    margin-top: 80px;
+    margin-top: 60px;
     border-radius: 10px;
     border: thin solid black;
     background-color: white;
@@ -126,11 +143,11 @@ img {
     padding: 30px;
     flex: wrap;
     float: left;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 /* contact box */
 #contact {
-    margin-top: 80px;
+    margin-top: 60px;
     border-radius: 10px;
     border: thin solid black;
     padding: 20px;
