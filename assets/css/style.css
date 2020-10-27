@@ -1,6 +1,6 @@
 /* Background */
 body {
-    background-image: url(../images/back2.jpg);
+    background-image: url(../images/white.jpg);
     background-size: 100%;
     background-position: center;
     border: 8px solid black;
@@ -41,6 +41,7 @@ h1 {
 label {
     font-family: 'Epilogue', sans-serif;
 }
+/* contact button */
 .btn {
     font-family: 'Epilogue', sans-serif;
     background-color: transparent;
@@ -93,6 +94,7 @@ label {
     margin-right: 15px;
     padding-left: 45%;
     padding-bottom: 10px;
+    padding-right: 15px;
 }
 /* class with margin 2 */
 .mt-2 {
