@@ -11,8 +11,7 @@ html, body {
 .footer {
     background-color: transparent;
     text-align: center;
-    position:fixed;
-    bottom:0;
+    position: fixed;
     width:100%;
     display: block;
     bottom: 0;
