@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import {db} from "../firebase";
 
-function Contact(props) {
+function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
