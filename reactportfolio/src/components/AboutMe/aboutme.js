@@ -8,7 +8,7 @@ function AboutMe() {
             <div class="col-md-12" id="about">
                 <h1>About Me</h1>
                 <hr />
-                <img class="main-img" src="profile.jpg" alt="Photo of Erika" />
+                <img class="main-img" src={"assets/images/profile.jpg"} width="200px" alt="Photo of Erika" />
                 <p class="font" >My name is Erika Zibelnik and I currently reside in Melbourne, Florida. I am learning
                     full stack web development through UCF's
                     coding
