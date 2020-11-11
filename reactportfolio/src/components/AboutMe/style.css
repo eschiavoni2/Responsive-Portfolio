@@ -1,0 +1,45 @@
+/* About me image */
+.main-img {
+    margin: 20px;
+    float: left;
+    margin-right: 5%;
+    height: 300px;
+    width: 325px;
+}
+/* About me paragraphs */
+.font, p {
+    font-family: 'Epilogue', sans-serif;
+    margin-top: 40px;
+}
+/* github button */
+.gitHubDiv {
+    float: left;
+}
+/* linkedin button */
+.linkedinDiv {
+    float: left;
+    margin-right: 15px;
+    padding-left: 45%;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+/* about me box */
+#about {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: thin solid black;
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    flex: wrap;
+    float: left;
+}
+/* phone number profile */
+#phone {
+    justify-content: center;
+    display: flex;
+}
+/* Title font */
+h1 {
+    font-family: 'Epilogue', sans-serif;
+}

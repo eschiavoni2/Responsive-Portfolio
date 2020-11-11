@@ -1,15 +1,15 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 function AboutMe() {
     return (
-        <div class="container">
-        <div class="row">
-            <div class="col-md-12" id="about">
+        <div className="container">
+        <div className="row">
+            <div className="col-md-12" id="about">
                 <h1>About Me</h1>
                 <hr />
-                <img class="main-img" src={"assets/images/profile.jpg"} width="200px" alt="Photo of Erika" />
-                <p class="font" >My name is Erika Zibelnik and I currently reside in Melbourne, Florida. I am learning
+                <img className="main-img" src={"assets/images/profile.jpg"} width="200px" alt="Erika" />
+                <p className="font" >My name is Erika Zibelnik and I currently reside in Melbourne, Florida. I am learning
                     full stack web development through UCF's
                     coding
                     bootcamp. This will prepare me for an environment that is looking for innovation, education, and

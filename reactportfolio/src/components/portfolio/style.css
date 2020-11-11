@@ -1,0 +1,59 @@
+/* Portfolio columns */
+/* .col-md-6 {
+    position: relative;
+} */
+/* Portfolio banner text */
+/* .banner {
+    background-color: rgb(70, 131, 58);
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    width: 275px;
+    padding-top: 20px;
+    margin-right: 99px;
+} */
+/* .bannerb {
+    background-color: rgb(70, 131, 58);
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    width: 275px;
+    padding-top: 20px;
+    margin-right: 100px;
+} */
+/* class with margin 2 */
+.mt-2 {
+    padding-left: 100px;
+    
+}
+/* images for portfolio */
+img {
+    border: solid sienna 1px;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+/* fourth project */
+.p4 {
+    border: solid sienna 1px;
+    border-radius: 10%;
+    margin-right: 100px;
+
+}
+/* portfolio box */
+#portfolio {
+    border-radius: 10px;
+    border: thin solid black;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+/* Title font */
+h1 {
+    font-family: 'Epilogue', sans-serif;
+}

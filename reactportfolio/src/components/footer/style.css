@@ -1,0 +1,18 @@
+/* Footer */
+.footer {
+    background-color: transparent;
+    text-align: center;
+    position: fixed;
+    width:100%;
+    display: block;
+    bottom: 0;
+}
+/* foot media adjustment */
+@media screen and (max-width: 480px) {
+    .footer {
+        position: fixed;
+        top: auto;
+        left: auto;
+        height: auto;
+    }
+}
