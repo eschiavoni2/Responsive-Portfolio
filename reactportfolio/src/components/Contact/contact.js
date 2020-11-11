@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import {db} from "../firebase";
+const  firebase = require("firebase/app");
 
 function Contact() {
     const [name, setName] = useState("");
@@ -51,9 +52,12 @@ function Contact() {
             />
 
             <label>Message</label>
-            <textarea placeholder="Message">
-                value={message} onChange={(e) => setMessage(e.target.value)}
-            </textarea>
+            <input 
+                type="textarea"
+                placeholder="Message"
+                value={message} 
+                onChange={(e) => setMessage(e.target.value)}
+            />
 
             <button type="submit" style={{background : loader ? "#ccc" : " rgb(2, 2, 110)" }}></button>
         </form>
