@@ -51,10 +51,8 @@ function Contact() {
             />
 
             <label>Message</label>
-            <textarea 
-                placeholder="Message">
-                value={message} 
-                onChange={(e) => setMessage(e.target.value)}
+            <textarea placeholder="Message">
+                value={message} onChange={(e) => setMessage(e.target.value)}
             </textarea>
 
             <button type="submit" style={{background : loader ? "#ccc" : " rgb(2, 2, 110)" }}></button>
