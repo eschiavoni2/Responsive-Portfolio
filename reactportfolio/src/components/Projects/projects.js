@@ -1,9 +1,8 @@
 import Portfolio from "./components/portfolio/portfolio";
 import projects from "./projects.json";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 
-class projects extends Component {
+
+class Projects extends Component {
     // Setting this.state.friends to the friends json array
     state = {
       projects
@@ -32,5 +31,5 @@ class projects extends Component {
     }
   }
   
-  export default projects;
+  export default Projects;
   

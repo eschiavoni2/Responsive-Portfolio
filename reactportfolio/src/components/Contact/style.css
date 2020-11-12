@@ -14,7 +14,7 @@ body,
 input,
 textarea,
 button {
-  font-family: "Inter", sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 
 .app {
@@ -29,6 +29,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: auto;
 }
 
 .form > h1 {

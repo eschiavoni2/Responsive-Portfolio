@@ -33,24 +33,25 @@ function Contact() {
     };
 
     return (
+        <div className="container">
         <form className="form" onSubmit={handleSubmit}>
-            <h1>Contact form phone</h1>
+            <h1>Contact Me</h1>
 
-            <label>Name</label>
+            <label>Name:</label>
             <input 
                 placeholder="Name" 
                 value={name} 
                 onChange={(e) => setName(e.target.value)}
             />
 
-            <label>Email</label>
+            <label>Email:</label>
             <input 
                 placeholder="Email" 
                 value={email} 
                 onChange={(e) => setEmail(e.target.value)}
             />
 
-            <label>Message</label>
+            <label>Message:</label>
             <input 
                 type="textarea"
                 placeholder="Message"
@@ -60,6 +61,7 @@ function Contact() {
 
             <button type="submit" style={{background : loader ? "#ccc" : " rgb(2, 2, 110)" }}></button>
         </form>
+        </div>
     )
 };
 

@@ -6,7 +6,8 @@ import "./components/Contact/contact";
 import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
 import AboutMe from "./components/AboutMe/aboutme";
-import Portfolio from "./components/Portfolio/portfolio";
+import Portfolio from "./components/Projects/projects";
+
 
 
 function App() {

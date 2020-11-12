@@ -24,6 +24,7 @@ function Portfolio(props) {
         Deployed page
       </span> */}
     </div>
+    
     )
 }
 
