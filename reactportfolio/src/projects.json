@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Burger",
+      "image": "./assets/images/burger.PNG",
+      "repo": "https://github.com/eschiavoni2/Burger",
+      "deployed": "https://damp-gorge-35199.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "name": "Work Day Planner",
+        "image": "./assets/images/burgerProject2.PNG",
+        "repo": "https://github.com/eschiavoni2/Work-Day-Scheduler",
+        "deployed": "https://eschiavoni2.github.io/Work-Day-Scheduler/"
+    },
+    {
+        "id": 3,
+        "name": "Code Generator",
+        "image": "./assets/images/Project3.PNG",
+        "repo": "https://github.com/eschiavoni2/Code-Generator",
+        "deployed": "https://eschiavoni2.github.io/Code-Generator/"
+    },
+    {
+        "id": 4,
+        "name": "Note Taker",
+        "image": "./assets/images/note.PNG",
+        "repo": "https://github.com/eschiavoni2/note-taker",
+        "deployed": "https://safe-plains-93574.herokuapp.com/notes"
+    },
+    {
+        "id": 5,
+        "name": "ArtBook",
+        "image": "./assets/images/artbook.PNG",
+        "repo": "https://github.com/eschiavoni2/Project2"
+    },
+    {
+        "id": 6,
+        "name": "Employee Tracker",
+        "image": "./assets/images/EmpTracker.gif",
+        "repo": "https://github.com/eschiavoni2/Employee-Tracker",
+        "deployed": "https://github.com/eschiavoni2/Employee-Tracker"
+    }
+]

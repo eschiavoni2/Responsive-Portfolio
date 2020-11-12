@@ -4,8 +4,8 @@ import "./style.css";
 function AboutMe() {
     return (
         <div className="container">
-        <div className="row">
-            <div className="col-md-12" id="about">
+        {/* <div className="row">
+            <div className="col-md-12" id="about"> */}
                 <h1>About Me</h1>
                 <hr />
                 <img className="main-img" src={"assets/images/profile.jpg"} width="200px" alt="Erika" />
@@ -27,8 +27,8 @@ function AboutMe() {
                 <div>
                 </div>
                 </p>
-            </div>
-        </div>
+            {/* </div>
+        </div> */}
     </div>
     );
 }

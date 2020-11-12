@@ -14,16 +14,16 @@ function Navbar() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <Link to="/">About Me</Link>
+                            <Link className="nav-link" to="/">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Portfolio">Portfolio</Link>
+                            <Link className="nav-link" to="/Portfolio">Portfolio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/Contact">Contact</Link>
+                            <Link className="nav-link" to="/Contact">Contact</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="navbar-brand" href="Resume_ErikaZibelnik.pdf" target="_blank">Resume</a>
+                            <a className="nav-link" href="/Resume_ErikaZibelnik.pdf" target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
