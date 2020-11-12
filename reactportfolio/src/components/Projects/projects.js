@@ -1,5 +1,5 @@
-import Portfolio from "./Portfolio/portfolio";
-import projects from "./projects.json";
+import Portfolio from "../Portfolio/portfolio";
+import projects from "../../projects.json";
 
 
 class Projects extends Component {
