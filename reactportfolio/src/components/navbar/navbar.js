@@ -23,7 +23,7 @@ function Navbar() {
                             <Link to="/Contact">Contact</Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/Resume_ErikaZibelnik.pdf">Resume</Link>
+                            <a className="navbar-brand" href="Resume_ErikaZibelnik.pdf" target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
