@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Portfolio from "../Portfolio/portfolio";
 import projects from "../../projects.json";
 import Title from "../Title/index";
