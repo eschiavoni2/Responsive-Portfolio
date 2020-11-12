@@ -1,5 +1,7 @@
 import Portfolio from "./components/portfolio/portfolio";
 import projects from "./projects.json";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
 
 class projects extends Component {
     // Setting this.state.friends to the friends json array

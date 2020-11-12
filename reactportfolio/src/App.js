@@ -8,6 +8,7 @@ import Footer from "./components/Footer/footer";
 import AboutMe from "./components/AboutMe/aboutme";
 import Portfolio from "./components/Portfolio/portfolio";
 
+
 function App() {
   return (
     <Router>
