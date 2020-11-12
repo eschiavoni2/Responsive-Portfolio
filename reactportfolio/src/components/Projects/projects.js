@@ -1,5 +1,9 @@
+import React from "react";
 import Portfolio from "../Portfolio/portfolio";
 import projects from "../../projects.json";
+import Title from "../Title/index";
+import Wrapper from "../Wrapper/index";
+
 
 
 class Projects extends Component {
