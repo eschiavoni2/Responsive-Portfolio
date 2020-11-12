@@ -1,4 +1,4 @@
-import Portfolio from "./components/portfolio/portfolio";
+import Portfolio from "./Portfolio/portfolio";
 import projects from "./projects.json";
 
 
