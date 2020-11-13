@@ -3,28 +3,22 @@ body {
     background-image: url(../images/white.jpg);
     background-size: 100%;
     background-position: center;
+    border: 8px solid black;
 }
 html, body {
-    height:100%;
+    height: 100%;
 }
 /* Footer */
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
     background-color: transparent;
     text-align: center;
-    position:fixed;
-    bottom:0;
-    width:100%;
-    display: block;
-    bottom: 0;
-}
-/* foot media adjustment */
-@media screen and (max-width: 480px) {
-    .footer {
-        position: fixed;
-        top: auto;
-        left: auto;
-        height: auto;
-    }
+    border-top: 1px solid rgb(11, 36, 105);
+    height: 60px;
+    padding-top: 10px;
 }
 /* About me image */
 .main-img {
@@ -111,20 +105,19 @@ label {
 img {
     border: solid sienna 1px;
     border-radius: 10%;
-    margin-top: 20px;
     margin-right: 100px;
+    margin-top: 20px;
 }
 /* fourth project */
 .p4 {
     border: solid sienna 1px;
     border-radius: 10%;
     margin-right: 100px;
-
 }
-/* phone number profile */
-#phone {
-    justify-content: center;
-    display: flex;
+#email, #phone {
+    /* justify-content: center;
+    display: flex; */
+    padding-left: 30px;
 }
 /* font family for nav links */
 .nav-link {
@@ -148,9 +141,11 @@ img {
     border-radius: 10px;
     border: thin solid black;
     background-color: white;
-    padding: 20px;
-    margin-top: 30px;
     justify-content: center;
+    padding: 20px;
+    flex: wrap;
+    float: left;
+    margin-top: 30px;
 }
 /* contact box */
 #contact {
