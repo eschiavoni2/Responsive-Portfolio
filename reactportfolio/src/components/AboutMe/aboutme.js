@@ -3,7 +3,7 @@ import "./style.css";
 
 function AboutMe() {
     return (
-        <div className="container">
+        <div className="container about">
         {/* <div className="row">
             <div className="col-md-12" id="about"> */}
                 <h1>About Me</h1>

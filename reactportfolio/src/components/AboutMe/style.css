@@ -5,6 +5,7 @@
     margin-right: 5%;
     height: 300px;
     width: 325px;
+    padding-bottom: 30px;
 }
 /* About me paragraphs */
 .font, p {
@@ -24,21 +25,20 @@
     padding-right: 15px;
 }
 /* about me box */
-#about {
-    margin-top: 30px;
+.about {
+    margin-top: 40px;
     border-radius: 10px;
     border: thin solid black;
     background-color: white;
-    padding: 20px;
+    padding: 40px;
     justify-content: center;
     flex: wrap;
-    float: left;
 }
 /* phone number profile */
-#phone {
+/* #phone {
     justify-content: center;
     display: flex;
-}
+} */
 /* Title font */
 h1 {
     font-family: 'Epilogue', sans-serif;

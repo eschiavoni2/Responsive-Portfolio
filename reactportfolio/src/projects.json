@@ -9,7 +9,7 @@
     {
         "id": 2,
         "name": "Work Day Planner",
-        "image": "./assets/images/burgerProject2.PNG",
+        "image": "./assets/images/Project2.PNG",
         "repo": "https://github.com/eschiavoni2/Work-Day-Scheduler",
         "deployed": "https://eschiavoni2.github.io/Work-Day-Scheduler/"
     },
