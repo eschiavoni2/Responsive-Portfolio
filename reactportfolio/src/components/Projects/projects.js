@@ -3,6 +3,7 @@ import Portfolio from "../Portfolio/portfolio";
 import projects from "../../projects.json";
 import Title from "../Title/index";
 import Wrapper from "../Wrapper/index";
+import "./style.css";
 
 
 
@@ -17,7 +18,7 @@ class Projects extends Component {
     render() {
       return (
         <Wrapper>
-          <Title>Projects</Title>
+          <Title className="title">Projects</Title>
           {this.state.projects.map(project => { 
             return (
             <Portfolio

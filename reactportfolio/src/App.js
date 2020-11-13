@@ -1,6 +1,5 @@
  import logo from './logo.svg';
 import { Route, BrowserRouter as Router, Switch,} from "react-router-dom";
-import './App.css';
 import Contact from "./components/Contact/contact";
 import "./components/Contact/contact";
 import Navbar from "./components/Navbar/navbar";

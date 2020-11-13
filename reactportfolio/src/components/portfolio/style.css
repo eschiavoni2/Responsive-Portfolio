@@ -75,7 +75,12 @@
     display: flex;
 }
 
-/* Title font */
-h1, .title {
-    font-family: 'Epilogue', sans-serif;
+.portfolio {
+    margin-top: 40px;
+    border-radius: 10px;
+    border: thin solid black;
+    background-color: white;
+    padding: 40px;
+    justify-content: center;
+    flex: wrap;
 }

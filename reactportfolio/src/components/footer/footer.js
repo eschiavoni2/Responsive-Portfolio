@@ -11,10 +11,8 @@ function Footer() {
                 </a>
             </div>
             <div className="gitHubDiv">
-                <a className="github-button" href="https://github.com/eschiavoni2"
-                    data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large"
-                    aria-label="Follow @eschiavoni2 on GitHub">
-                    <i className="fa"></i>
+                <a className="github-button" href="https://github.com/eschiavoni2">
+                <i className="fa fa-github" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
